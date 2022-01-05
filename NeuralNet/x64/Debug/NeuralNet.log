@@ -1,0 +1,8 @@
+﻿  ML.cpp
+C:\Users\Caio Peres\source\repos\NeuralNet\NeuralNet\ML.cpp(304,60): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Caio Peres\source\repos\NeuralNet\NeuralNet\ML.cpp(312,48): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Caio Peres\source\repos\NeuralNet\NeuralNet\ML.cpp(313,42): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Caio Peres\source\repos\NeuralNet\NeuralNet\ML.cpp(389,16): warning C4101: 'filesize': variável local não referenciada
+  main.cpp
+  Gerando Código...
+  NeuralNet.vcxproj -> C:\Users\Caio Peres\source\repos\NeuralNet\x64\Debug\NeuralNet.exe

@@ -1,0 +1,22 @@
+// forward
+
+20x784   *   784x1   => w_i_h @ img
+
+20x1     +   20x1    => b_i_h + w_i_h @ img
+
+20x1 		     => h/h_pre
+
+10x20    *   20x1    => w_h_o @ h
+
+10x1     +   10x1    => b_h_o + w_h_o @ h
+
+10x1   		     => o/o_pre
+
+//backwards
+
+10x1     -   10x1    => o - l (delta_o)
+
+10x1	 *   1x20    => delta_o @ hT
+
+10x20 + (-learn_rate * 10x20) => w_h_o
+
