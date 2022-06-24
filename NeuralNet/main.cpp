@@ -34,7 +34,7 @@ int main() {
 	ML* mainML = new ML(dim);
 
 
-	mainML->Train("C:\\Users\\Caio\\source\\repos\\NeuralNet\\NeuralNet\\images\\");
+	mainML->Train("C:\\Users\\Caio Peres\\source\\repos\\NeuralNet\\NeuralNet\\images\\");
 	mainML->SaveAll();
 
 	delete mainML;
